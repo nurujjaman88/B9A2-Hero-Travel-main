@@ -75,3 +75,49 @@ nav ul li a{
     text-decoration: none;
 }
 /* Header section styles end */
+
+
+/* Banner section styles start */
+ .banner-img{
+    width: 100%;
+    padding: 10px 0px 20px 0px;
+ }
+
+
+ .banner{
+    align-items: center;
+    text-align: center;
+ }
+
+
+ .banner-content{
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;  
+    border-radius: 16px;
+    margin-left: 50px;
+    }
+
+    .banner-title{
+        padding-top: 110px;
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 800;
+        margin-bottom: 5px;
+    }
+
+    .banner-description{
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+/* Banner section styles end */
+
