@@ -1,0 +1,77 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
+
+
+/* Shared Styles */
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+
+/* Header section styles start */
+
+header{
+    background: #FFF;
+    width: 1440px;
+    height: 6940px;
+}
+
+nav h3{
+    padding-right: 520px;
+}
+
+.travel-red{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.hero-normal{color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+nav img{
+    padding-left: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+}
+
+nav > ul{
+    display: flex;
+    
+}
+
+nav ul li{
+    list-style: none;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 40px;
+}
+
+.home-color-red a{
+    color: #FF5400;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+}
+/* Header section styles end */
