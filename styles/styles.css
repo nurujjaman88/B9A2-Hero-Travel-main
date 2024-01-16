@@ -396,10 +396,81 @@ nav ul li a{
 
 /* Deals and Discounts section */
 
-.deals-discounts{
+.deals-discounts-info{
 text-align: center;
+margin-top: 30px;
 }
 
+
+.deals-title{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+.deals-description{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+
+/* perfect-place-info */
+
+.perfect-place-info{
+    display: flex;
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-top: 30px;
+}
+
+.perfect-title{
+    color: #131318;
+    width: 448px;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+
+.perfect-content > p{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+
+.perfect-content > ul li{
+    color: #131318;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px;
+}
+
+.mountain-title{
+    background-image: url('../Images/Group\ 40089.png');
+    width: 610px;
+    height: 424px;border-radius: 16px;
+
+
+}
 /* main section */
 
 .popular-tours-section{
