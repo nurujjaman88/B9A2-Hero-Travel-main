@@ -49,7 +49,8 @@ nav h3{
 }
 
 nav img{
-    padding-left: 40px;
+    padding-left: 10px;
+    
 }
 
 nav {
@@ -467,10 +468,21 @@ line-height: 26px;
 .mountain-title{
     background-image: url('../Images/Group\ 40089.png');
     width: 610px;
-    height: 424px;border-radius: 16px;
-
-
+    height: 424px;
+    border-radius: 16px;
+    color: #FFF;
+    text-align: center;
 }
+
+.mountain-title h4{
+    padding-top: 150px;
+    font-size: 24px;
+font-style: normal;
+font-weight: 700;
+margin-left: 70px;
+margin-right: 70px;
+}
+
 /* main section */
 
 .popular-tours-section{
@@ -517,6 +529,81 @@ line-height: 26px;
     padding-left: 40px;
 }
 
+/* Newsletter and discount section */
+
+.newsletter-discount-sec{
+    display: flex;
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-top: 40px;
+    
+}
+
+.newsletter-sec{
+    width: 50%;
+    margin-right: 30px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 10px;
+}
+.newsletter-title{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.newsletter-des{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    }
+
+
+.name-field{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    color: #1313180D;
+}
+
+.email-field{
+    width: 493px;
+    height: 52px;
+    border-radius: 8px;
+}
+
+.discount-sec{
+    background-image: url('../Images/Rectangle\ 8\ \(1\).png');
+    background-repeat: no-repeat;
+    width: 672px;
+    height: 422px;
+    margin-left: 40px;
+    margin-right: 10px;
+    border-radius: 16px;
+}
+
+
+.btn-subscribe-1{
+    width: 493px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    margin-left: 10px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 50px;
+}
+
+
 /* footer section start */
 
 .footer-section{
@@ -543,6 +630,17 @@ line-height: 26px;
 
 .footer-social-link img{
     padding: 10px;
+    nav{
+        flex-direction: column;
+    }
     }
 
 /* footer section end */
+
+
+
+/* media queries */
+
+@media screen and (max-width:576px) {
+    padding: 10px;
+}
