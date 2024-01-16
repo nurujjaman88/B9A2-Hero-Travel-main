@@ -23,6 +23,17 @@
 
 /* Header section styles start */
 
+select{
+    width: 150px;
+    height: 40px;
+}
+
+input{
+    width: 140px;
+    height: 35px;
+}
+
+
 header{
     background: #FFF;
     /* width: 1440px;
