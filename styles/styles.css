@@ -132,6 +132,45 @@ nav ul li a{
         padding-right: 250px;
     }
 /* Banner section styles end */
+/* destination-section */
+.destination-section{
+    text-align: center;
+}
+
+
+.destination-title{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 40px;
+    }
+
+
+.destination-description{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0px;
+    padding-left: 400px;
+    padding-right: 400px;
+    }
+
+    /* destination-section-end */
+
+/* Tours - picture section */
+
+.tours-pic{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    }
+
+
 
 /* main section */
 
@@ -179,7 +218,7 @@ nav ul li a{
     padding-left: 40px;
 }
 
-/* footer section */
+/* footer section start */
 
 .footer-section{
     display: flex;
@@ -205,5 +244,6 @@ nav ul li a{
 
 .footer-social-link img{
     padding: 10px;
-    
-}
+    }
+
+/* footer section end */
