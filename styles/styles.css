@@ -438,9 +438,8 @@ nav ul li a{
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400;  
 }
-
 
 .tour-to-satorini{
     
@@ -450,12 +449,9 @@ nav ul li a{
     background-repeat: no-repeat;
     width: 1170px;
     height: 500px;
-    border-radius: 16px;
     margin-left: 135px;
     margin-right: 135px;
 }
-
-
 
 .tour-to-satorini-1{
     margin-left: 500px;
@@ -467,7 +463,40 @@ nav ul li a{
     border: 2px solid #FFF;
 }
 
+/* deals 2nd row start */
 
+.tour-to-satorini2{
+    display: flex;
+    margin-left: 135px;
+    margin-right: 135px;
+    background-image: url('../Images/Group\ 40.png');
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+}
+
+.tour-to-satorini-2{
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background-color: #FFFFFF;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.tour-to-satorini-2 nav > img{
+    display: flex;
+    margin-left: 5px;
+    padding-left: 0px;
+}
+
+.tour-to-satorini-2 nav > ul li{
+    padding-left: 5px;
+}
+/* deals 2nd row end */
 
 .deals-discounts-info{
 text-align: center;
