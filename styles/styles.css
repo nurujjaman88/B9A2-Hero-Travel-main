@@ -19,18 +19,23 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 800;
+    border: none;
 }
 
 /* Header section styles start */
 
 select{
-    width: 150px;
-    height: 40px;
+    width: 140px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
 }
 
 input{
     width: 140px;
-    height: 35px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
 }
 
 
@@ -726,17 +731,22 @@ margin-right: 70px;
     }
 
 
-.name-field{
-    width: 393px;
-    height: 52px;
-    border-radius: 8px;
-    color: #1313180D;
-}
-
-.email-field{
+.name-field input{
     width: 493px;
     height: 52px;
     border-radius: 8px;
+    color: #1313180D;
+    background: rgba(19, 19, 24, 0.05);
+    border: 2px solid;
+    margin-bottom: 10px;
+}
+
+.email-field input{
+    width: 493px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 2px solid;
 }
 
 .discount-sec{
@@ -788,14 +798,14 @@ margin-right: 70px;
 
 .footer-social-link{
     text-align: center;
+    
 
 }
 
 .footer-social-link img{
     padding: 10px;
-    nav{
-        flex-direction: column;
-    }
+    color: #131318;
+    
     }
 
 /* footer section end */
@@ -805,5 +815,7 @@ margin-right: 70px;
 /* media queries */
 
 @media screen and (max-width:576px) {
-    padding: 10px;
+    .footer-section{
+        flex-direction: column;
+    }
 }
