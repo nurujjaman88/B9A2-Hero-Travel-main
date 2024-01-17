@@ -404,6 +404,32 @@ nav ul li a{
     padding-top: 10px;
 }
 
+.price-gaurantee-info img{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.price-gaurantee-info h4, p{
+        margin-left: 20px;
+}
+
+.service-info img{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.service-info h4{
+    margin-left: 20px;
+}
+
+.hotel-info h4{
+    margin-left: 20px;
+}
+
+.hotel-info img{
+    margin-top: 30px;
+    margin-left: 20px;
+}
 
 
 /* Deals and Discounts section */
@@ -487,14 +513,50 @@ nav ul li a{
     margin-top: 50px;
 }
 
-.tour-to-satorini-2 nav > img{
-    display: flex;
-    margin-left: 5px;
-    padding-left: 0px;
+.tour-to-satorini2 .satorini-title{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 20px;
 }
 
-.tour-to-satorini-2 nav > ul li{
-    padding-left: 5px;
+
+.tour-to-satorini2 .satorini-des{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.tour-to-satorini2 .price-info{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 20px;
+}
+
+.tour-to-satorini2 .btn-primary{
+    margin-left: 20px;
+    border: none;
+}
+
+.tour-to-satorini2 nav{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.tour-to-satorini2 nav p{
+    padding-left: 3px;
 }
 /* deals 2nd row end */
 
