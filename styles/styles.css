@@ -759,6 +759,41 @@ margin-right: 70px;
     border-radius: 16px;
 }
 
+.web-save{
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-left: 340px;
+    margin-top: 255px;
+    margin-right: 50px;
+}
+
+.web-save h3{
+    color: #FFF;
+font-family: Mulish;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+color: #FFFFFF;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+.web-save h4{
+    padding-bottom: 0px;
+    padding-top: 10px;
+}
 
 .btn-subscribe-1{
     width: 493px;
